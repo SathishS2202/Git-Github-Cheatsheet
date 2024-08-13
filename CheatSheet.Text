@@ -1,0 +1,100 @@
+Getting Started with Git
+Initialize a Repository
+git init
+Creates a new Git repository in your current directory.
+
+Clone a Repository
+git clone <repository-url>
+Copies an existing Git repository from a remote server.
+
+Basic Git Commands
+Check Repository Status
+git status
+Shows the working directory status, including staged, unstaged, and untracked files.
+
+Add Changes
+git add <file>
+Stages specific file(s) for commit.
+git add .
+Stages all changes in the directory.
+
+Commit Changes
+git commit -m "Commit message"
+Commits staged changes with a descriptive message.
+
+View Commit History
+git log
+Displays the commit history for the repository.
+
+Branching
+Create a New Branch
+git branch <branch-name>
+Creates a new branch.
+
+Switch to a Branch
+git checkout <branch-name>
+Switches to the specified branch.
+
+Merge Branches
+git merge <branch-name>
+Merges the specified branch into the current branch.
+
+Working with Remote Repositories
+Add a Remote Repository
+git remote add origin <repository-url>
+Links your local repository to a remote server.
+
+Push Changes to Remote
+git push origin <branch-name>
+Uploads local branch changes to the remote repository.
+
+Pull Changes from Remote
+git pull origin <branch-name>
+Fetches and merges changes from the remote repository to your local branch.
+
+View Remote Repositories
+git remote -v
+Lists the remote repositories linked to your project.
+
+Undoing Changes
+Unstage Files
+git reset <file>
+Removes files from the staging area.
+
+Discard Local Changes
+git checkout -- <file>
+Reverts changes in a file to the last committed state.
+
+Revert a Commit
+git revert <commit-hash>
+Creates a new commit that undoes the changes from a specific commit.
+
+Advanced Commands
+Stash Changes
+git stash
+Temporarily saves your changes and cleans your working directory.
+
+Apply Stash
+git stash apply
+Restores stashed changes.
+
+View Stashes
+git stash list
+Lists all stashed changes.
+
+Delete a Branch
+git branch -d <branch-name>
+Deletes a branch (use -D to force delete).
+
+GitHub Tips
+Create a Pull Request (PR)
+Go to the repository on GitHub, select your branch, and click on "New Pull Request."
+
+Fork a Repository
+Click "Fork" on the repository page to create your own copy of a project.
+
+Star a Repository
+Click the "Star" button on a repository to bookmark it and show appreciation.
+
+Watch a Repository
+Click "Watch" to get notifications about updates and discussions in the repository.
